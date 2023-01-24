@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+ul li{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+body{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* header part css start  */
+header{
+    background-color: #0872b9;
+    padding-top: 10px;
+    color: #fff;
+}
+.welcome p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+.icon ul{
+    float: right;
+}
+.icon ul li{
+    float: left;
+    padding: 0 15px;
+}
+.icon ul li a{
+    color: #fff;
+    transition: all linear .3s;
+}
+.icon ul li a:hover{
+    color: #000;
+    transition: all linear .3s;
+    
+}
+/* header part css end */
+/* navigation part css start  */
+.navbar{
+    padding: 10px 0;
+    background-color: #f5f5f5;
+}
+.navbar-nav .nav-item .nav-link{
+    
+    color: #0e1424;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.navbar-nav .nav-item .nav-link.active{
+    color: #22ccc4;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #22ccc4;
+}
+/* navigation part css end */
+/* slider part css start  */
+.carousel{
+    margin-bottom: 80px;
+}
+
+/* slider part css end  */
+/* about part css start  */
+.about-main{
+    margin-top: 100px;
+}
+.about-con{
+    padding-top: 0px;
+    margin-left: 20px;
+}
+.about-con h2{
+    color: 252525;
+    font-family: 'open', sans-serif; 
+    font-size: 30;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.about-con p{
+    font-size: 16px;
+    color: #2f2f2f;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.about-con a{
+    color: #fff;
+    background-color: #0cbe95;
+    padding: 10px 25px;
+    border-radius: 50px;
+    text-align: center;
+}
+.about-con a:hover{
+    background-color: rgb(109, 109, 109);
+    box-shadow: 1px 2px 6px 1px rgb(68, 68, 68);
+    
+}
+/* about part css end */
+/* e-book part css start  */
+.common-heading{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.common-heading b{
+    background-color:#04d1a1;
+    border-radius: 50px 0px 50px 0px;
+    padding: 10px 40px 10px 40px ;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'open', sans-serif; 
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+}
+.common-heading b span{
+    color: orange;
+}
+.col-md-3{
+    margin-bottom: 40px;
+}
+.gly-img{
+    background-color: rgb(235, 235, 235);
+    height: 100%;
+    width: 100%; 
+    box-shadow: 1px 2px 8px 1px rgb(114, 114, 114);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.gly-img img{
+    width: 80%;
+    height: 85%;
+    box-shadow: 1px 2px 6px 2px rgb(68, 68, 68);
+}
+.gly-overlay{
+    background-color: rgba(43, 43, 43, 0.658);
+    height: 85%;
+    width: 80%;
+    position: absolute;
+    left: -50;
+    top: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: all linear .3s;
+}
+.gly-overlay a{
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+.gly-img:hover .gly-overlay{
+    transform: scale(1);
+    transition: all linear .3s;
+}
+
+.more-book {
+    text-align: center;
+    margin-top: 20px;
+}
+.more-book h4 a{
+    background-color: #0cbe95;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    
+}   
+
+.more-book h4 a:hover{
+background-color: rgb(109, 109, 109);
+box-shadow: 1px 2px 6px 1px rgb(68, 68, 68);
+
+}
+/* e-book part css end */
+
+/* fun fact part start  */
+.fun-fact{
+    background: url(../images/funFact-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+    margin-top: 120px;
+}
+.funfact-con-main{
+    text-align: center;
+}
+.funfact-con h2{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.funfact-con h6{
+    color: #d4d4d4;
+    font-size: 15px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+}
+/* fun fact part end */
+/* service part css start  */
+.ser-main{
+    padding: 40px 30px 30px 10px;
+}
+
+.ser-main:hover{
+    box-shadow: 1px 1px 10px #24ddb3;
+}
+.ser-icon i{
+    background-color: #24ddb3;
+    color: white;
+    font-size: 36px;
+    padding: 14px;
+    border-radius: 10px;
+    float: right;
+}
+.ser-con{
+    margin-left: 10px;
+}
+.ser-con h6{
+    font-size: 16px;
+    font-family: 'open', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.ser-con p{   
+    font-size: 14px;
+    font-family: 'open', sans-serif;
+    text-align: justify;
+    font-weight: 500;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+
+/* service part css end */
+/* work with us part css start  */
+.work-bg{
+    background-color: #50d18d;
+    color: #fff;
+    padding: 60px 0;
+    margin-top: 120px;
+    text-align: center;
+}
+.work-con h2{
+    font-size: 25px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    display: inline-block;
+}
+.work-con a{
+    color: #fff;
+    background-color: #4be694;
+    padding: 8px 25px;
+    border-radius: 50px;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+/* work with us part css end */
+/* footer part css start  */
+footer{
+    background-color:#353535 ;
+    padding: 30px 0 0 0;
+    color: #fff;
+    margin-top: 60px;
+}
+.f-con p{
+    font-size: 13px;
+    padding-top: 30px;
+}
+
+.f-con-head h4{
+    font-size: 18px;
+    font-family: "oswald", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.f-icon ul{
+    padding-left: 0;
+}
+.f-icon ul li a{
+    height: 40px;
+    width: 40px;
+    background-color: #5bc5f4;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.f-num p{
+    font-size: 13px;
+}
+.f-menu ul {
+    padding: 0;
+}
+.f-menu ul li{
+    margin-bottom: 18px;
+}
+.f-menu ul li a{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+}
+.f-menu ul li a:hover{
+    color: #5bc5f4;
+
+}
+.f-gly{
+    margin-bottom: 20px;
+}
+
+.foooter-nav{
+    background-color: #555555;
+    color: #fff;
+    margin-top: 20px;
+}
+.foooter-nav h4{
+    font-size: 16px;
+    padding: 20px;
+    text-align: center;
+}
+.foooter-nav h4 span{
+    color: #5bc5f4;
+}
+
+/* footer part css end */
